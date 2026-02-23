@@ -446,8 +446,8 @@ Typical speedup: 10-50x on large datasets.
 If you use this toolkit in your research or projects, please cite it:
 
 ```bibtex
-@software{vikingdude81_qrng_toolkit_2026,
-  author       = {vikingdude81},
+@software{bone_qrng_toolkit_2026,
+  author       = {Bone, Alexander},
   title        = {QRNG Analysis Toolkit},
   year         = {2026},
   url          = {https://github.com/vikingdude81/qrng-analysis-toolkit},
@@ -458,7 +458,7 @@ If you use this toolkit in your research or projects, please cite it:
 
 Or in prose:
 
-> vikingdude81 (2026). *QRNG Analysis Toolkit* (v1.0.0). GitHub. https://github.com/vikingdude81/qrng-analysis-toolkit
+> Bone, A. (2026). *QRNG Analysis Toolkit* (v1.0.0). GitHub. https://github.com/vikingdude81/qrng-analysis-toolkit
 
 GitHub also provides a built-in **"Cite this repository"** button in the sidebar (powered by [CITATION.cff](CITATION.cff)).
 

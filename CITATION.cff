@@ -8,7 +8,9 @@ abstract: >-
   509,000+ pre-collected samples, NIST SP 800-22 test battery, chaos theory
   metrics, phase space reconstruction, and cross-source comparison tools.
 authors:
-  - alias: vikingdude81
+  - family-names: Bone
+    given-names: Alexander
+    alias: vikingdude81
     affiliation: "Independent Researcher"
 repository-code: "https://github.com/vikingdude81/qrng-analysis-toolkit"
 url: "https://github.com/vikingdude81/qrng-analysis-toolkit"
