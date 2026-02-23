@@ -1,0 +1,210 @@
+{
+  "metric": "iterations",
+  "alpha": 0.05,
+  "descriptive_statistics": {
+    "OUTSHIFT_STREAM": {
+      "n": 10,
+      "mean": 2.9,
+      "std": 1.5238839267549948,
+      "sem": 0.4818944098266987,
+      "ci_95_lower": 1.8098791090711845,
+      "ci_95_upper": 3.9901208909288153
+    },
+    "ANU_QRNG": {
+      "n": 10,
+      "mean": 3.3,
+      "std": 1.4944341180973262,
+      "sem": 0.4725815626252608,
+      "ci_95_lower": 2.2309462330744827,
+      "ci_95_upper": 4.369053766925517
+    },
+    "CIPHERSTONE_QRNG": {
+      "n": 10,
+      "mean": 2.2,
+      "std": 1.398411797560202,
+      "sem": 0.44221663871405326,
+      "ci_95_lower": 1.1996364631997412,
+      "ci_95_upper": 3.200363536800259
+    },
+    "CPU_RDRAND": {
+      "n": 10,
+      "mean": 2.5,
+      "std": 1.8408935028645435,
+      "sem": 0.582141639885766,
+      "ci_95_lower": 1.1831041195367829,
+      "ci_95_upper": 3.816895880463217
+    },
+    "PRNG": {
+      "n": 10,
+      "mean": 2.4,
+      "std": 1.837873166945363,
+      "sem": 0.5811865258054231,
+      "ci_95_lower": 1.0852647376949733,
+      "ci_95_upper": 3.7147352623050267
+    }
+  },
+  "anova": {
+    "f_statistic": 0.7267782426778243,
+    "p_value": 0.5783320063091529,
+    "df_between": 4,
+    "df_within": 45,
+    "eta_squared": 0.06068228265995909,
+    "omega_squared": 0
+  },
+  "kruskal_wallis": {
+    "h_statistic": 4.4821095691797845,
+    "p_value": 0.34467409624885026
+  },
+  "pairwise_comparisons": [
+    {
+      "comparison": "OUTSHIFT_STREAM_vs_ANU_QRNG",
+      "mean_difference": -0.3999999999999999,
+      "cohens_d": -0.2650356625796317,
+      "cohens_d_ci_95": [
+        -1.1453979406245478,
+        0.6153266154652846
+      ],
+      "t_statistic": -0.5926377579897537,
+      "df": 17.993149544492283,
+      "p_value_raw": 0.5607986518954575,
+      "p_value_adjusted": 1.0,
+      "significant": false,
+      "correction_method": "Holm-Bonferroni"
+    },
+    {
+      "comparison": "OUTSHIFT_STREAM_vs_CIPHERSTONE_QRNG",
+      "mean_difference": 0.6999999999999997,
+      "cohens_d": 0.4786344211304792,
+      "cohens_d_ci_95": [
+        -0.4103497443502833,
+        1.3676185866112418
+      ],
+      "t_statistic": 1.0702591020190133,
+      "df": 17.86871961102107,
+      "p_value_raw": 0.2987471917143953,
+      "p_value_adjusted": 1.0,
+      "significant": false,
+      "correction_method": "Holm-Bonferroni"
+    },
+    {
+      "comparison": "OUTSHIFT_STREAM_vs_CPU_RDRAND",
+      "mean_difference": 0.3999999999999999,
+      "cohens_d": 0.23670895294574143,
+      "cohens_d_ci_95": [
+        -0.642877765888686,
+        1.1162956717801689
+      ],
+      "t_statistic": 0.529297309669477,
+      "df": 17.393267303556538,
+      "p_value_raw": 0.6032898104342552,
+      "p_value_adjusted": 1.0,
+      "significant": false,
+      "correction_method": "Holm-Bonferroni"
+    },
+    {
+      "comparison": "OUTSHIFT_STREAM_vs_PRNG",
+      "mean_difference": 0.5,
+      "cohens_d": 0.2961744388795462,
+      "cohens_d_ci_95": [
+        -0.5851404968492163,
+        1.1774893746083088
+      ],
+      "t_statistic": 0.6622661785325219,
+      "df": 17.403183023872682,
+      "p_value_raw": 0.5164756220161388,
+      "p_value_adjusted": 1.0,
+      "significant": false,
+      "correction_method": "Holm-Bonferroni"
+    },
+    {
+      "comparison": "ANU_QRNG_vs_CIPHERSTONE_QRNG",
+      "mean_difference": 1.0999999999999996,
+      "cohens_d": 0.7600781755130496,
+      "cohens_d_ci_95": [
+        -0.14754170185913806,
+        1.6676980528852372
+      ],
+      "t_statistic": 1.6995864686611954,
+      "df": 17.921193101419227,
+      "p_value_raw": 0.10649947428570335,
+      "p_value_adjusted": 1.0,
+      "significant": false,
+      "correction_method": "Holm-Bonferroni"
+    },
+    {
+      "comparison": "ANU_QRNG_vs_CPU_RDRAND",
+      "mean_difference": 0.7999999999999998,
+      "cohens_d": 0.47714566349252635,
+      "cohens_d_ci_95": [
+        -0.41176163976817176,
+        1.3660529667532244
+      ],
+      "t_statistic": 1.0669301387385288,
+      "df": 17.270427053198024,
+      "p_value_raw": 0.3006916798871858,
+      "p_value_adjusted": 1.0,
+      "significant": false,
+      "correction_method": "Holm-Bonferroni"
+    },
+    {
+      "comparison": "ANU_QRNG_vs_PRNG",
+      "mean_difference": 0.8999999999999999,
+      "cohens_d": 0.5373200827133942,
+      "cohens_d_ci_95": [
+        -0.354878734417727,
+        1.4295188998445152
+      ],
+      "t_statistic": 1.201484230622959,
+      "df": 17.28110859302649,
+      "p_value_raw": 0.24577147984310338,
+      "p_value_adjusted": 1.0,
+      "significant": false,
+      "correction_method": "Holm-Bonferroni"
+    },
+    {
+      "comparison": "CIPHERSTONE_QRNG_vs_CPU_RDRAND",
+      "mean_difference": -0.2999999999999998,
+      "cohens_d": -0.18352066281439167,
+      "cohens_d_ci_95": [
+        -1.0618863363769733,
+        0.69484501074819
+      ],
+      "t_statistic": -0.41036467732879767,
+      "df": 16.792195224232067,
+      "p_value_raw": 0.6867268137169702,
+      "p_value_adjusted": 1.0,
+      "significant": false,
+      "correction_method": "Holm-Bonferroni"
+    },
+    {
+      "comparison": "CIPHERSTONE_QRNG_vs_PRNG",
+      "mean_difference": -0.19999999999999973,
+      "cohens_d": -0.12247448713915875,
+      "cohens_d_ci_95": [
+        -0.9998183827676548,
+        0.7548694084893373
+      ],
+      "t_statistic": -0.2738612787525827,
+      "df": 16.804979253112034,
+      "p_value_raw": 0.7875288687424722,
+      "p_value_adjusted": 1.0,
+      "significant": false,
+      "correction_method": "Holm-Bonferroni"
+    },
+    {
+      "comparison": "CPU_RDRAND_vs_PRNG",
+      "mean_difference": 0.10000000000000009,
+      "cohens_d": 0.054366028221956283,
+      "cohens_d_ci_95": [
+        -0.8223184165903276,
+        0.93105047303424
+      ],
+      "t_statistic": 0.12156613477096627,
+      "df": 17.999951467043427,
+      "p_value_raw": 0.9045894916415543,
+      "p_value_adjusted": 1.0,
+      "significant": false,
+      "correction_method": "Holm-Bonferroni"
+    }
+  ]
+}

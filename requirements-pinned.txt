@@ -1,0 +1,27 @@
+# Pinned dependencies for reproducible builds
+# Generated: 2026-01-02
+# For production use - exact versions
+
+# Core scientific computing
+numpy==1.24.3
+torch==2.0.1
+scipy==1.10.1
+
+# Visualization
+matplotlib==3.7.2
+plotly==5.15.0
+
+# Data handling
+pandas==2.0.3
+openpyxl==3.1.2
+
+# Terminal UI
+rich==13.4.2
+
+# Optional: QRNG Integration
+# websocket-client==1.6.1  # For live QRNG streaming
+
+# Development tools
+pytest==7.4.0
+black==23.3.0
+mypy==1.4.1

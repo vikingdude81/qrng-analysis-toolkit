@@ -1,0 +1,52 @@
+{
+  "source": "quantum_hardware_256bit",
+  "n_floats": 386232,
+  "n_bytes": 386232,
+  "n_bits": 3089856,
+  "tests": [
+    {
+      "name": "Monobit Frequency",
+      "result": "P = 0.3200",
+      "passed": true,
+      "checks": "Checks if the number of 0s and 1s is equal. (Ideal P>=0.01)"
+    },
+    {
+      "name": "Block Frequency",
+      "result": "P = 0.8583",
+      "passed": true,
+      "checks": "Checks if the density of 1s is consistent across local blocks."
+    },
+    {
+      "name": "Runs Test",
+      "result": "P = 0.3782",
+      "passed": true,
+      "checks": "Checks for streaks of consecutive bits (e.g., 000 or 111)."
+    },
+    {
+      "name": "Chi-Square (Bytes)",
+      "result": "P = 0.9876",
+      "passed": true,
+      "checks": "Verifies that all 256 byte values (0-255) appear with equal frequency."
+    },
+    {
+      "name": "Shannon Entropy",
+      "result": "7.9996 bits",
+      "passed": true,
+      "checks": "Measures information density per byte (Ideal is 8.0)."
+    },
+    {
+      "name": "Monte Carlo Pi",
+      "result": "3.1420",
+      "passed": true,
+      "checks": "Estimates pi using random coordinate pairs (Error ~0.0%)."
+    },
+    {
+      "name": "Compression Ratio",
+      "result": "1.0003",
+      "passed": true,
+      "checks": "Attempts to compress the data; failure to compress proves high entropy."
+    }
+  ],
+  "passed": 7,
+  "total": 7
+}

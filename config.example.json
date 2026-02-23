@@ -1,0 +1,34 @@
+{
+  "analysis": {
+    "steps": 5000,
+    "history_len": 100,
+    "output_dir": "qrng_results",
+    "log_level": "INFO",
+    "save_plots": true,
+    "save_excel": true
+  },
+  "qrng": {
+    "ring_sections": 4,
+    "pump_power_mw": 17.0,
+    "use_extraction": true,
+    "use_sha256_whitening": false,
+    "simulation_mode": true
+  },
+  "scope": {
+    "embedding_dim": 2,
+    "embedding_delay": 1,
+    "walk_mode": "angle",
+    "sensitivity": 0.6
+  },
+  "detection": {
+    "warmup_steps": 60,
+    "burn_in_steps": 50,
+    "influence_threshold": null,
+    "min_confidence": 0.5
+  },
+  "visualization": {
+    "terminal": true,
+    "update_interval": 50,
+    "plot_style": "dark_background"
+  }
+}

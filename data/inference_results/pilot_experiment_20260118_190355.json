@@ -1,0 +1,245 @@
+{
+  "timestamp": "20260118_190355",
+  "experiment": "qrng_vs_prng_strange_attractor",
+  "results": [
+    {
+      "source_type": "OUTSHIFT_STREAM",
+      "trial_id": 0,
+      "prompt": "What is the relationship between entropy and information?",
+      "response": "# The Profound Connection Between Entropy and Information\n\nThe relationship between entropy and information reveals one of the most elegant unifying principles in science, connecting thermodynamics, information theory, and our understanding of knowledge itself.\n\n## The Foundation: Two Types of Entropy\n\n### Thermodynamic Entropy (Boltzmann)\n**S = k ln(\u03a9)**\n- Measures disorder in physical systems\n- \u03a9 = number of possible microscopic states\n- Higher entropy = more ways to arrange particles\n- Irreve...",
+      "response_hash": "5bb525ad6dc12c81",
+      "iterations": 3,
+      "final_confidence": 0.6864562066970392,
+      "convergence_time_ms": 40102.9970999989,
+      "tokens_used": 1765,
+      "rng_calls": 9,
+      "rng_values_used": [
+        0.33462257287465036,
+        0.5649152400437742,
+        0.9621956930495799,
+        0.47517984081059694,
+        0.52897317125462,
+        0.4134834392461926,
+        0.967127149226144,
+        0.36456206697039306,
+        0.27393817249685526
+      ]
+    },
+    {
+      "source_type": "OUTSHIFT_STREAM",
+      "trial_id": 1,
+      "prompt": "What is the relationship between entropy and information?",
+      "response": "# The Relationship Between Entropy and Information\n\nEntropy and information are intimately connected through a fundamental mathematical relationship that bridges physics and information theory, revealing a profound unity between seemingly different domains.\n\n## The Core Connection\n\n**Information entropy** (developed by Claude Shannon) measures the uncertainty or \"surprise\" in a message or dataset. Counterintuitively, **more uncertainty means more information capacity**. Here's why:\n\n- A complete...",
+      "response_hash": "50823d7291bdb4b4",
+      "iterations": 4,
+      "final_confidence": 0.7589878760743886,
+      "convergence_time_ms": 41237.2512999973,
+      "tokens_used": 1645,
+      "rng_calls": 12,
+      "rng_values_used": [
+        0.19117552624084055,
+        0.8990771032404155,
+        0.7311024880036712,
+        0.24853312014602125,
+        0.8792244377546012,
+        0.8579416756983846,
+        0.322825834620744,
+        0.966758290072903,
+        0.40987650165334344,
+        0.7691620830446482
+      ]
+    },
+    {
+      "source_type": "OUTSHIFT_STREAM",
+      "trial_id": 2,
+      "prompt": "What is the relationship between entropy and information?",
+      "response": "# The Entropy-Information Connection: A Fundamental Bridge Across Sciences\n\nThe relationship between entropy and information represents one of the most profound unifying principles in modern science, revealing deep connections between thermodynamics, information theory, quantum mechanics, and statistical physics through shared mathematical structures and conceptual foundations.\n\n## Shannon's Information-Theoretic Foundation\n\nClaude Shannon's revolutionary insight established that **information i...",
+      "response_hash": "65ab2845a8795cba",
+      "iterations": 4,
+      "final_confidence": 0.7756489678286015,
+      "convergence_time_ms": 55930.89039999904,
+      "tokens_used": 2551,
+      "rng_calls": 12,
+      "rng_values_used": [
+        0.5107198925688863,
+        0.6771890937816352,
+        0.3168635538313538,
+        0.5845901030115783,
+        0.9381628250703216,
+        0.6258399866055697,
+        0.4531919888686389,
+        0.2982107363641262,
+        0.5725346754770726,
+        0.8839822432491928
+      ]
+    },
+    {
+      "source_type": "CPU_RDRAND",
+      "trial_id": 0,
+      "prompt": "What is the relationship between entropy and information?",
+      "response": "# The Relationship Between Entropy and Information\n\nThe relationship between entropy and information is fundamentally **complementary and quantitative**: entropy measures the average amount of uncertainty or randomness in a system, while information measures how much that uncertainty is reduced when we learn something specific.\n\n## Mathematical Foundation\n\n**Shannon Entropy** for a discrete probability distribution quantifies average uncertainty:\n```\nH(X) = -\u03a3 p(x) log\u2082 p(x)\n```\n\n**Information C...",
+      "response_hash": "b831bd8813292404",
+      "iterations": 2,
+      "final_confidence": 0.6456556960241869,
+      "convergence_time_ms": 23428.65289999827,
+      "tokens_used": 1149,
+      "rng_calls": 6,
+      "rng_values_used": [
+        0.6972304088994861,
+        0.17944422829896212,
+        0.6300916010513902,
+        0.5577577506192029,
+        0.9565569602418691,
+        0.2684652437455952
+      ]
+    },
+    {
+      "source_type": "CPU_RDRAND",
+      "trial_id": 1,
+      "prompt": "What is the relationship between entropy and information?",
+      "response": "Entropy and information are intimately connected through a fundamental mathematical relationship that bridges physics and information theory.\n\n## The Core Connection\n\n**Information entropy** (introduced by Claude Shannon) and **thermodynamic entropy** share the same mathematical form:\n\n- **Shannon entropy**: H = -\u03a3 p(x) log p(x)\n- **Thermodynamic entropy**: S = k log W (where W is the number of microstates)\n\nBoth measure uncertainty or \"missing information\" about a system's state.\n\n## Key Relati...",
+      "response_hash": "a6f02dab04307cd1",
+      "iterations": 4,
+      "final_confidence": 0.7372889199061319,
+      "convergence_time_ms": 42361.07439999978,
+      "tokens_used": 1540,
+      "rng_calls": 12,
+      "rng_values_used": [
+        0.00858313962817192,
+        0.3737786961719394,
+        0.984511568211019,
+        0.38466981309466064,
+        0.4785906889010221,
+        0.7741584356408566,
+        0.4969876315444708,
+        0.8728891990613192,
+        0.7872091643512249,
+        0.38242162275128067
+      ]
+    },
+    {
+      "source_type": "CPU_RDRAND",
+      "trial_id": 2,
+      "prompt": "What is the relationship between entropy and information?",
+      "response": "# The Relationship Between Entropy and Information\n\nThe relationship between entropy and information represents one of the most elegant and profound connections in science, bridging physics, mathematics, and computation through a unified mathematical framework that reveals how uncertainty, randomness, and knowledge are fundamentally interconnected.\n\n## Mathematical Foundation\n\n**Shannon's Information Theory**\nClaude Shannon revolutionized our understanding by defining information entropy as:\n\n**...",
+      "response_hash": "b46c8d57d48eea7e",
+      "iterations": 4,
+      "final_confidence": 0.7970215276582165,
+      "convergence_time_ms": 56290.09640000004,
+      "tokens_used": 2630,
+      "rng_calls": 12,
+      "rng_values_used": [
+        0.441651827422902,
+        0.4525199057534337,
+        0.9296824811026454,
+        0.8865378927439451,
+        0.2138421747367829,
+        0.8529836640227586,
+        0.9119694181717932,
+        0.027839959133416414,
+        0.9671209633816034,
+        0.6169951648917049
+      ]
+    },
+    {
+      "source_type": "PRNG",
+      "trial_id": 0,
+      "prompt": "What is the relationship between entropy and information?",
+      "response": "# The Relationship Between Entropy and Information\n\nThe connection between entropy and information represents one of science's most elegant unifying principles, bridging thermodynamics, information theory, and quantum mechanics. This relationship fundamentally reshapes how we understand knowledge, uncertainty, and the physical universe.\n\n## Information Theory: Entropy as Measure of Uncertainty\n\nClaude Shannon revolutionized our understanding by defining **information entropy** as a quantitative ...",
+      "response_hash": "0e5b7d040037a7a0",
+      "iterations": 5,
+      "final_confidence": 0.817559663829266,
+      "convergence_time_ms": 81879.93970000025,
+      "tokens_used": 3686,
+      "rng_calls": 15,
+      "rng_values_used": [
+        0.5488135039273248,
+        0.7151893663724195,
+        0.6027633760716439,
+        0.5448831829968969,
+        0.4236547993389047,
+        0.6458941130666561,
+        0.4375872112626925,
+        0.8917730007820798,
+        0.9636627605010293,
+        0.3834415188257777
+      ]
+    },
+    {
+      "source_type": "PRNG",
+      "trial_id": 1,
+      "prompt": "What is the relationship between entropy and information?",
+      "response": "The relationship between entropy and information is one of the most elegant paradoxes in science\u2014they're mathematical twins that tell opposite stories.\n\n## The Mirror Dance\n\n**Information entropy** measures uncertainty or surprise. High entropy means high unpredictability\u2014like a fair coin flip or a jazz improvisation. **Thermodynamic entropy** measures disorder and energy dispersal. Yet they share identical mathematical DNA: both use the same logarithmic formulas that Claude Shannon borrowed fro...",
+      "response_hash": "04ee5350090fa757",
+      "iterations": 1,
+      "final_confidence": 0.38163755545817857,
+      "convergence_time_ms": 11776.992800001608,
+      "tokens_used": 391,
+      "rng_calls": 3,
+      "rng_values_used": [
+        0.9296160928171479,
+        0.3163755545817859,
+        0.18391881167709445
+      ]
+    },
+    {
+      "source_type": "PRNG",
+      "trial_id": 2,
+      "prompt": "What is the relationship between entropy and information?",
+      "response": "# The Profound Connection Between Entropy and Information\n\nThe relationship between entropy and information represents one of the most elegant bridges between physics and information theory, revealing fundamental truths about uncertainty, disorder, and knowledge.\n\n## Thermodynamic Entropy: Measuring Physical Disorder\n\nIn thermodynamics, entropy quantifies the disorder or randomness within a system. Ludwig Boltzmann's famous equation **S = k ln W** shows that entropy (S) equals Boltzmann's consta...",
+      "response_hash": "d1087a037b7537ed",
+      "iterations": 2,
+      "final_confidence": 0.5927894363338841,
+      "convergence_time_ms": 23632.55019999997,
+      "tokens_used": 1103,
+      "rng_calls": 6,
+      "rng_values_used": [
+        0.21908136521598587,
+        0.46742698790594983,
+        0.5552815027055509,
+        0.8758529656113017,
+        0.427894363338842,
+        0.02968014421312104
+      ]
+    }
+  ],
+  "analysis": {
+    "OUTSHIFT_STREAM": {
+      "n": 3,
+      "iterations_mean": 3.6666666666666665,
+      "iterations_std": 0.5773502691896257,
+      "confidence_mean": 0.7403643502000098,
+      "confidence_std": 0.04742324268292104,
+      "time_ms_mean": 45757.04626666508,
+      "tokens_mean": 1987,
+      "rng_calls_mean": 11,
+      "unique_responses": 3,
+      "consistency_ratio": 0.0
+    },
+    "CPU_RDRAND": {
+      "n": 3,
+      "iterations_mean": 3.3333333333333335,
+      "iterations_std": 1.1547005383792515,
+      "confidence_mean": 0.7266553811961785,
+      "confidence_std": 0.07624111656899712,
+      "time_ms_mean": 40693.27456666603,
+      "tokens_mean": 1773,
+      "rng_calls_mean": 10,
+      "unique_responses": 3,
+      "consistency_ratio": 0.0
+    },
+    "PRNG": {
+      "n": 3,
+      "iterations_mean": 2.6666666666666665,
+      "iterations_std": 2.0816659994661326,
+      "confidence_mean": 0.5973288852071096,
+      "confidence_std": 0.21799650476264062,
+      "time_ms_mean": 39096.49423333394,
+      "tokens_mean": 1726.6666666666667,
+      "rng_calls_mean": 8,
+      "unique_responses": 3,
+      "consistency_ratio": 0.0
+    },
+    "effect_size_iterations": 0.6546536707079772
+  }
+}
