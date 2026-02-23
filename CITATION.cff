@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "QRNG Analysis Toolkit"
+abstract: >-
+  A comprehensive open-source toolkit for collecting, analyzing, and visualizing
+  Quantum Random Number Generator data from multiple hardware sources. Includes
+  509,000+ pre-collected samples, NIST SP 800-22 test battery, chaos theory
+  metrics, phase space reconstruction, and cross-source comparison tools.
+authors:
+  - alias: vikingdude81
+    affiliation: "Independent Researcher"
+repository-code: "https://github.com/vikingdude81/qrng-analysis-toolkit"
+url: "https://github.com/vikingdude81/qrng-analysis-toolkit"
+license: MIT
+version: "1.0.0"
+date-released: "2026-02-23"
+keywords:
+  - quantum random number generator
+  - QRNG
+  - randomness testing
+  - NIST SP 800-22
+  - chaos theory
+  - phase space analysis
+  - entropy
+  - IBM Quantum
+  - quantum computing

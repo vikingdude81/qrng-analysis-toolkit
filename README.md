@@ -441,6 +441,29 @@ Typical speedup: 10-50x on large datasets.
 
 ---
 
+## Citing This Work
+
+If you use this toolkit in your research or projects, please cite it:
+
+```bibtex
+@software{vikingdude81_qrng_toolkit_2026,
+  author       = {vikingdude81},
+  title        = {QRNG Analysis Toolkit},
+  year         = {2026},
+  url          = {https://github.com/vikingdude81/qrng-analysis-toolkit},
+  version      = {1.0.0},
+  license      = {MIT}
+}
+```
+
+Or in prose:
+
+> vikingdude81 (2026). *QRNG Analysis Toolkit* (v1.0.0). GitHub. https://github.com/vikingdude81/qrng-analysis-toolkit
+
+GitHub also provides a built-in **"Cite this repository"** button in the sidebar (powered by [CITATION.cff](CITATION.cff)).
+
+---
+
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
