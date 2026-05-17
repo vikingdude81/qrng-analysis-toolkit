@@ -4,6 +4,29 @@ Pytest configuration for helios-trajectory-analysis tests.
 Sets up common fixtures and configurations for all test modules.
 """
 
+import sys
+from pathlib import Path
+
+# Make the repo root and key subpackages importable as flat module names,
+# matching the historical layout that many test modules still use.
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+_FLAT_DIRS = [
+    _REPO_ROOT,
+    _REPO_ROOT / "metrics",
+    _REPO_ROOT / "analysis",
+    _REPO_ROOT / "collectors",
+    _REPO_ROOT / "measures",
+    _REPO_ROOT / "inference_framework",
+    _REPO_ROOT / "utils",
+    _REPO_ROOT / "cuquantum_accelerator",
+    _REPO_ROOT / "meta_curiosity",
+    _REPO_ROOT / "visualization",
+]
+for _p in _FLAT_DIRS:
+    _s = str(_p)
+    if _p.is_dir() and _s not in sys.path:
+        sys.path.insert(0, _s)
+
 import pytest
 import numpy as np
 
