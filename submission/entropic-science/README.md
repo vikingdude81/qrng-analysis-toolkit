@@ -5,6 +5,10 @@ Drop-in Markdown entries for submitting the QRNG Analysis Toolkit to
 should land at inside `artifacts/entropic-science/src/content/` in the
 entropic-science monorepo.
 
+- Target repo: <https://github.com/entropic-science/entropic.science>
+- Org: <https://github.com/Entropic-Science>
+- Community Discord: <https://discord.gg/2EbveaB2wS>
+
 ## Files
 
 | Local path | Target path in entropic-science repo |
