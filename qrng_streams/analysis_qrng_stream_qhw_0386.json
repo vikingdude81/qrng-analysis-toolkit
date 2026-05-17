@@ -1,0 +1,16 @@
+{
+  "hurst": 0.6382446381957718,
+  "lyapunov": -0.07271822665743374,
+  "diffusion_alpha": 0.005200523072635158,
+  "spectral_entropy": 0.9129415588337176,
+  "runs_test_random": true,
+  "autocorr_lag1": -0.10227057382950254,
+  "correlation_dimension": 3.7143382346905507,
+  "phase_transitions": 6,
+  "consciousness": 0.015776573879635873,
+  "consciousness_state": "dreaming",
+  "anomalies": [
+    "Hurst=0.638 suggests persistent correlations",
+    "High lag-1 autocorrelation (-0.102)"
+  ]
+}
