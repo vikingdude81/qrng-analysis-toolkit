@@ -5,6 +5,8 @@ Pytest tests using NIST 800-22 test suite.
 import pytest
 import numpy as np
 import sys
+sys.path.insert(0, '/workspaces/helios-trajectory-analysis')
+
 from tests.nist_tests import NIST800_22, NISTTestResult
 
 

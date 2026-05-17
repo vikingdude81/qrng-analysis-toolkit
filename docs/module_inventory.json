@@ -1,0 +1,26 @@
+[
+  {
+    "module_name": "consciousness_metrics.py",
+    "path": "helios-trajectory-analysis/consciousness_metrics.py",
+    "tested?": true,
+    "missing_tests?": false
+  },
+  {
+    "module_name": "chaos_analysis.py",
+    "path": "helios-trajectory-analysis/chaos_analysis.py",
+    "tested?": true,
+    "missing_tests?": false
+  },
+  {
+    "module_name": "epiplexity_estimator.py",
+    "path": "helios-trajectory-analysis/epiplexity_estimator.py",
+    "tested?": true,
+    "missing_tests?": false
+  },
+  {
+    "module_name": "qrng-analysis-toolkit/metrics/*.py",
+    "path": "qrng-analysis-toolkit/metrics/",
+    "tested?": true,
+    "missing_tests?": false
+  }
+]

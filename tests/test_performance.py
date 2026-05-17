@@ -16,6 +16,8 @@ import numpy as np
 import time
 import sys
 import os
+sys.path.insert(0, '/workspaces/helios-trajectory-analysis')
+
 from helios_anomaly_scope import QRNGStreamScope
 from qrng_spdc_source import SPDCQuantumSource
 

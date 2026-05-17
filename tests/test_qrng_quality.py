@@ -12,6 +12,8 @@ import pytest
 import numpy as np
 from scipy import stats
 import sys
+sys.path.insert(0, '/workspaces/helios-trajectory-analysis')
+
 from qrng_spdc_source import SPDCQuantumSource, get_quantum_random
 
 

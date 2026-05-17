@@ -1,12 +1,10 @@
 """
-HELIOS Trajectory Analysis Test Suite
-======================================
+Helios Trajectory Analysis - Test package.
 
-Comprehensive tests for:
-- Core metric calculations (Lyapunov, Hurst, MSD)
-- QRNG quality verification
-- Signal classification accuracy
-- Known-signal injection (Lorenz, periodic, drift)
-- Edge cases and error handling
-- Performance benchmarks
+Contains unit tests for all analysis modules.
 """
+
+import unittest
+from .test_entropy import TestEntropy
+
+__all__ = ['TestEntropy']

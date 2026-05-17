@@ -11,6 +11,8 @@ Tests the full pipeline:
 import pytest
 import numpy as np
 import sys
+sys.path.insert(0, '/workspaces/helios-trajectory-analysis')
+
 from helios_anomaly_scope import (
     QRNGStreamScope,
     AnomalyEvent,

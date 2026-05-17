@@ -30,6 +30,9 @@ from scipy import stats, special
 from typing import Tuple, List, Optional
 from dataclasses import dataclass
 import sys
+sys.path.insert(0, '/workspaces/helios-trajectory-analysis')
+
+
 @dataclass
 class NISTTestResult:
     """Result of a NIST test."""
