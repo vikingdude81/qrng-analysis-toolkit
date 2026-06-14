@@ -121,3 +121,6 @@ Thumbs.db
 # Entropy estimators module artifacts
 entropy_estimators/__pycache__/
 entropy_estimators/*.pyc
+
+# Hardware run output (large data files)
+xiao_hw_results/
