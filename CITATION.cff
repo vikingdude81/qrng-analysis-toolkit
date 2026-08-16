@@ -10,6 +10,7 @@ abstract: >-
 authors:
   - family-names: Bone
     given-names: Alexander
+    orcid: "https://orcid.org/0009-0003-4252-7556"
     alias: vikingdude81
     affiliation: "Independent Researcher"
 repository-code: "https://github.com/vikingdude81/qrng-analysis-toolkit"
